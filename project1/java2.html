@@ -1,0 +1,368 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+<script>
+
+  /*
+
+
+var x=5;
+document.write(typeof x); 
+
+var y= String(x);  //كدا x بردو رقم 
+
+//y بقت سترينج
+
+document.write(typeof x);
+
+         document.write ("<br />");
+		 
+
+var x= String(x); //كدا x بقت رقم
+
+document.write(typeof x);
+
+
+            document.write ("<br />");
+			
+
+var z = "10";
+z= Number(z);
+document.write(  typeof z);  
+
+
+         document.write ("<br />");
+
+
+var y='Nour';
+x=Number(y);
+document.write(typeof x);
+
+document.write(x);
+
+
+         document.write ("<br />");
+		 
+	*/	 
+		 
+/*
+
+var names ={firstname:'Nour' ,
+            lastname: 'Elsayed' };
+			
+		document.write( 'Hello' + ' '+ names.firstname + '  ' + names.lastname);
+
+
+var name = [ "Asmaa" , "Nourhan"," Eman"];
+
+        document.write( name[1]);
+*/
+
+/*
+
+var name = new Array();
+
+ name [0]= 'nourhan';
+ name[1] = 'Esraa';
+ name [2]= 'Asmaa';
+ 
+ document.write( name[1]);
+ 
+ 
+ */
+ 
+ /*
+ 
+   if(condition)
+   {
+	
+	code
+	   
+   }
+   
+   */
+ 
+ 
+ /*
+ var x= prompt( "Enter value of x");
+    if (x<20)
+	
+     {
+		 
+	 y=100;
+	 
+	 }
+	 
+	else if (x==20  && typeof x == String ){
+		
+		y=200;
+		
+		}
+		
+		
+	else {
+		
+		y= "x is larger than 200";
+		
+		}
+ 
+ document.write(y);// ممكن اكبها قبل القفله
+ 
+ */
+ 
+ 
+ /*
+ 
+ var x = 20;
+ switch (x)
+ 
+ {
+	 
+	case 10:  // لو بتساوي 10 حقق الشرط واخرج علشان x ;
+	    y= 30 ;
+	 
+	   break;
+	  
+	case 20:
+	    y =50 ;
+	 
+	   break;
+	  
+	 default:
+	      y=100;
+	 
+	   break;
+	 
+	 
+	 }
+ 
+ document.write(y); 
+ 
+ 
+ 
+ */
+ 
+ /*
+ 
+ 
+ for ( var  i= 1; i<=7; i=i+2){   // بيطبع ايييي وبعد كدا يزود ويشوف الشرط اتحقق وبعد كدا يطبع
+	 document.write(i + "<br />");
+	 }
+ 
+ */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*
+ var xyz =new Array();  //  كدا نا عبيت الاراي
+ 
+ for (var i=0;i<10;i++){ 
+ 
+ xyz[i]=i;
+ 
+ 
+ }
+ 
+
+ 
+ for ( var  i=0;i<10;i++){   // كدا علشان يطبعلي القميه بتاع الاراي 
+ 
+ document.write(xyz[x]);
+ 
+ }
+ 
+ */
+ 
+ /*
+var num = new Array();
+
+  num [0] = 'Nourhan';
+  num [1] = 'Asmaa';
+  num [2] ='Esraa';
+  num [3] = 'Eman';
+  num [4] ='Amany';
+
+
+	
+for(i=0;i<3;i++){
+	
+ document.write(num[i] + "<br />") };
+ 
+ */
+ 
+ 
+var num = new Array();
+
+  num [0] = 'Nourhan';
+  num [1] = 'Asmaa';
+  num [2] ='Esraa';
+  num [3] = 'Eman';
+  num [4] ='Amany';
+
+ 
+ var i=0;
+ while (num[i]) { // كدا محددتش طول الاراي
+	document.write(num[i] + "<br />") ;
+	i++;
+	
+	} 
+	 
+ 
+ 
+ 
+ 
+ 
+ 
+ //while طول ما الشرط بيتحقق هو بينفزز عكس اف
+ 
+ 
+ 
+ /*
+ var i=0;
+ while (i<3)
+ {
+	 document.write(i + "<br />");
+     i=i+1;
+	 }
+	 
+	 
+	 
+	 var x=50;   // كدا هينفز مره ع الاقل علشان لسه مدخله while
+	 do {
+		 y=50;
+		 }
+		 while (x>40);
+ 
+ 
+ document.write(y);
+ 
+ 
+ */
+ 
+ 
+ 
+ 
+ 
+ for(i=0;i<10;i++)
+ {
+	 if (i==3){
+		 break;    //كدا هيقف قبل ال 3 مش هيكمل عد
+		 }
+	
+	 document.write(i);
+ }
+ 
+ 
+ 
+document.write("<br />");
+ 
+ 
+ for(i=0;i<10;i++)
+ {
+	 if (i==3){
+		 continue;   // كدا هيعمل scape عند 3 كانها مش موجوده وهيكمل
+		 }
+	
+	 document.write(i);
+ }
+ 
+ document.write("<br />");
+ 
+ 
+ var x="Hello";
+ var y=x.length;
+  document.write(y);
+  
+  
+  var x = "hello nour";
+  var y= x.toUpperCase();  // tostring
+  document.write(y);
+ 
+ 
+  //indexof welcome يعني امته بدات اول حرف من الكلمه وبعد space  // the same is search
+  
+  // lastinedxof plant  هيعد لحد اخر كلمه بلانت تظهرله
+  
+  //replace (cairo, egypt)   هيبدل كلمه بكلمه 
+  
+  // slice (1,5)  يعني اقطع من بعد الاول واخد معايا 5 حروف منهم السبيس
+  
+ // split(" ")  important    كدا بيقطع كل مايقابل اسبيس وهيحط كل تقطيعه في اندكس 0و1و2و
+
+//trim   دا بينضف السبيس اللي مكتوب قبل الاسم مثلا
+
+// tofixed()  يعني قربلي الرقم من غير علامات
+
+
+var x = "    nour Esayed   ";
+ var y= x.trim();
+ 
+  document.write(y);
+  
+  
+  var car =["ii","hh","mm"];
+  document.write(car.join( "&" ));
+  
+  document.write("<br />");
+ 
+ 
+  
+  var cars =["ii","hh","mm"];
+  
+   //cars.pop();   //كدا حزف اخر عنصر ف الاراي
+   // document.write(cars);
+
+   var y= cars.pop();  // كدا قيمة ال x هتساوي العنصر الاخير اللي هيتحزف
+   document.write(y);
+   
+   
+    document.write("<br />");
+	
+   
+   var cars =["ii","hh","mm"];
+   var x =car.push('land');  //بتضيف عنصر وترجعلي ( طول ) الاراي الجديد
+   
+   document.write(x);
+   
+   
+    document.write("<br />");
+	
+	
+	 
+   var cars =["ii","hh","mm"];
+   var x =cars.shift();     //بيمسح اول عنصر ولما بحطه ف ء يعني هتاخد قيمة اللي اتحزف
+	 document.write(x);
+	
+	document.write("<br />");
+	
+    var cars =["ii","hh","mm"];
+   cars.unshift('land');     
+	 document.write(cars);
+   
+   
+   
+
+</script>
+
+
+</body>
+</html>

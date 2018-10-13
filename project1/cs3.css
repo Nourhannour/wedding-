@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing:border-box;
+	}
+
+
+
+.test{
+	
+/*-webkit-border-radius:50%;	
+-moz-border-radius:50%;	
+-o-border-radius:50%;	
+-ms-border-radius:50%;		
+border-radius:50%;*/
+margin-left:auto;
+margin-right:auto;
+border:1px solid black;
+box-shadow:5px 6px 4px black  ;
+text-shadow:3px 4px 1px yellow;
+width:400px;
+height:400px;
+background-color:red;
+padding:40px;	
+
+resize:both;
+overflow:auto; // بتخفي الزيادات لو مدياها hidden
+
+	
+	}
+

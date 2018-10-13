@@ -1,0 +1,151 @@
+
+        .container{
+            background-color:white;
+            height: 1500px;
+            }
+        
+        .nav{
+        background-color: white;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+
+         }
+        
+        
+    
+        ul{
+            list-style-type: none;
+            display: inline-block;
+            padding-top: 40px;
+            
+        }
+    
+        
+       .n{color: saddlebrown;
+        font-weight: bold;
+        padding-left:30px;
+        font-size: 30px;
+        }
+        
+        a:hover{text-decoration: none;
+        color: darkgreen;}
+        
+    
+        .l{
+            width: 25%;
+            background-color: white;;
+           }
+        
+        
+        
+        .main{width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 530px;
+        background-color: white;}
+        
+        
+        .mainl{
+            float: left;
+            width: 25%;
+            background-color: white;
+            padding-left: 30px;
+            
+        }
+        .mainr{ float: right;
+            padding-right: 20px;
+        }
+        .mainr img { height: 530px;}
+        
+        
+       .order{background-color:darkgreen;
+        color: white;
+        width: 100px;
+        height: 100px;
+        padding: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 0px 40%;
+        font-style: italic;
+        font-weight: bolder;
+        font-size: 30px;
+        border-radius: 20px;
+        }
+.order:hover{color: gold;
+    transform: rotate(50deg);
+}
+        
+        .mid{
+            width: 90%;
+            background-color: white;
+            clear: both;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 30px;
+           position: relative;
+        }
+        
+       
+   
+        .mid2{width: 30px;
+        height: 30px;
+        color: white;
+        position: absolute;
+        top: -60px;
+        left:800px;
+       }
+        
+        .sal{  top: 40px;
+            left:22px;
+            position: absolute;
+            color: white;
+        font-size: 45px;
+        font-weight: bolder;
+        transform: rotate(320deg);}
+        
+        .wel{margin-top: 20px;
+            font-size: 40px;
+            display: block;
+            font-weight: bolder;
+            color: darkred;
+            margin-bottom: 10px;
+            padding-left: 230px;
+        }
+        
+        .offers{width: 100%;
+        margin-left: auto;
+         margin-right: auto;
+        }
+        .footer{
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: 300px;
+            line-height: 60px;
+            
+        }
+        .border{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            border-top: 5px solid red;
+            height: 5px;
+        }
+        .foot1{
+            margin-left: 450px;
+           padding-top: 30px;
+            margin-bottom: 30px;
+            display: inline-block;
+           
+           
+            
+        }
+        
+        .a1{font-size: 25px; 
+            font-weight: 500;
+            word-spacing: 16px;
+           color:darkred;}
+        
+        .a1:hover{color: dimgrey;}

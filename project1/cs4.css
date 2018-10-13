@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	perspective:500px;}
+
+
+/*
+
+
+.parent{width:500px;
+height:400px;
+margin:100px auto;
+background-color:#ccc;
+position:relative;
+transform-style:preserve-3d;       /* كدا علشان احس انها بتخرج من جواها*/
+}
+
+/*
+.child{margin:0px;
+width:300px;
+height:200px;
+background-color:red;
+text-align:center;
+padding-top:50px;
+color:#fff;
+transition:all 2s;
+transition-timing-function:ease-in-out;
+position:absolute;
+top:40px;
+left:0px;}
+
+.child1 {
+width:300px;
+height:200px;
+background-color:blue;
+color:#F00;
+margin:50px auto;
+text-align:center;
+padding-top:20px;
+left:20px;
+top:20px;
+position:absolute;
+transform:rotateY(40deg)}
+
+
+*/
+
+
+
+/*
+
+
+.child:hover{
+	
+	transform:scaleZ(5) rotate(50deg);}  /* لازم علشان اعمل scale z لازم يكون معاها حاجه تانيه*/
+	
+	                                             /* Z يعني كاني مش حاطط حاجه*/
+												 
+										 
+	
+	.child:hover{transform:translate3d(300px,400px,200px)}
+	
+	
+	
+	
+	
+	
+	img:hover{transform:rotate(infint)}
+	
+	
+	
+	div{column-count:5;
+	column-gap:100px;   /*بيظبط المسافات بين العماويد*/
+	column-rule:1px solid red;  /* بيعمل خط بين العماويد*/
+	column-width:500px;   /*يعني هنقسم العماويد بناء علي الويدث مش عدد colomn*/
+	
+	
+	}   
+	
+	
+	h1{column-span:all;}  /* زش[[[[[[[}             ئ	 مش سبورت ف الفير فوكس*/

@@ -1,0 +1,188 @@
+body {
+	 /* background-color: rgba(255,0,0,0.2); */
+     /* background-image:url(../images/opacity3.png);
+        background-repeat:no-repeat;
+	    background-attachment:fixed;                /* image not scroll*/ /* must have image*/
+    /*  background-position: center center;        /* 50px 30px */
+	  /*line-height: 10px; */
+	   
+	  background: #fff url(../images/opacity3.png) no-repeat fixed center center ;
+	  
+	   
+	  
+
+}
+p{
+	text-transform:capitalize; 
+	direction:ltr;
+	letter-spacing:10px;
+	text-decoration:underline;
+	word-spacing: 10px;
+	text-indent: 70px;
+	text-align:justify;
+	line-height:30px;
+	font: 50px bold "Courier New", Courier, monospace ;
+	}
+	
+	h1{font-variant:small-caps;
+	
+	}
+	
+	
+	a:link {
+		color:red;
+		opacity: 0.5
+		}
+	a:visited: {
+			color: yellow;}
+	a:hover: {
+		opacity: 0.8
+		      }	
+		
+	caption
+	{
+	caption-side:bottom;
+		
+		}
+		table{
+			
+			
+			border-collapse:separate;
+	      border-spacing: 20px; }
+		  
+		  
+		  <div>
+		  
+		  </div>
+		  
+		  
+		 
+		  
+		  
+		  	/* NOT ALLOWED FOR BACKGROUND*/
+		  
+		  img: hover{
+			  
+			  opacity:0.3}
+			  
+			.DIV1{
+				width:300PX;
+				height:300PX;
+			    background-color:red;
+				border:solid #CCC 6px;     /* style color width*/
+				border-top:dotted green 9px;
+				
+				}  
+			  
+			  
+			  .DIV2{
+				  
+				  width:100PX;
+				height:100PX;
+			    background-color:yellow;
+				border-bottom: dotted black 4px;
+				border-radius:50%;
+				
+				  }
+				  
+				  
+		/*div>a      /* all a that div is direct parent*/	
+		
+		/*div p a     /* all a in p in div */ 	
+		
+		/*div>p>a     /* div p a in sequance*/  
+		
+		/*div +p   #nn +p   /*p after </div> */    /* ال p بعد قفلة ال div /*لازم تكون بعد القفله علطول*/	  
+		
+		/*P [align]  p [attripute]   /* all p that have align*/
+		
+		/*p [align=left]   input [type=text]	
+		
+		
+		*/
+		
+		
+		
+		.dis {
+			
+			
+			width:70px;
+			height:70px;
+			padding:15px;
+			border:1px solid red; 
+			background-color:yellow;
+			color:red;
+			margin:20px;
+			display:inline-block;
+			
+			
+			
+			} 
+		
+		
+		
+		.dis:hover{
+			
+			background-color:black;
+			border-radius:50%;
+			
+			}	
+			
+			
+		/*display:none hide elemant and his space; بيخفيه وبيمسح مكانه
+		visibility: hide elemant but save his place بيخفيه بس مكانه بيفضل محجوز	
+		
+		fixed  بيبقي مكانه ثابت ومتحدد بناء ع البودي ومش بينزل معايا لو عملت اسكرول 
+		
+		relative بيحرك بالنسبه للبارنت
+		
+		absolute بيشوف اقرب بيرنت يكون واخد relative دي بالنسباله نقط الصفر ولو ملقاش خالص يبقي بيعتنر البودي هو الحشقثىف 
+		
+		 */
+		
+		.fix{ 
+	       top:30px;
+		   right:30px;
+		   width:50px;
+		   height:50px;
+		   background-color:blue;
+		   position:fixed;
+		    }
+		   
+		   .z{
+			   width:70px;
+			   height:70px;
+			   padding:15px;
+			   border:1px solid red;
+			   background-color:yellow;
+			   position:relative;
+			   
+			   }
+		   
+		   .m1{
+			   width:70px;
+			   height:70px;
+			   z-index:3;
+			   position:absolute;
+			   background-color:white;
+			   position:absolute;
+			   top:-30px;
+			   left:20px;
+			   }
+		   
+		   
+		   .m2{
+			width:70px;
+			height:70px;
+			position:absolute;
+			background-color:red;
+			top:70px;
+			left:70px;
+			z-index:1;
+			
+			
+			}
+		 /* float بيطير الحاجه لل container بتاعها*/
+		 
+		 
+/* ايا كان اللي جاي بعد العنصر اللي واخد فلوت هيكمل وراه حتي لو برجراف*/	

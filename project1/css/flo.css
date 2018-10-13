@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+ img{ float:left ;
+ margin-right:10px;
+ }
+ 
+ /* الحاجه اللي معمولها صقشح بعد الفلوت مش بحاول اتعامل معاها ولااديها اي خصائص علشان كدا هدي مارجن للصوره*/
+
+ 
+ 
+ /* div align=centr كدا هيسنتر الcontent بتاع div
+ 
+    table align=centr كدا هيسنتر الtable 
+ 
+ 
+    margin-left=auto margin-right=auto الdivكدا هيسنتر
+
+بدل absolute بستخدم margin right او margin left 
+
+
+   div p:frist-child  اول p ف الdiv
+   
+    div p:frist-child a
+	
+	p:last-child
+	p:nth-child (3)
+	
+	table tr:nth-child(2)
+	      td:nth-child(3);
+		  
+	tr:last-child
+	tr:last-child; 
+	
+	:not(p) يعني كل حاجه ماعدا p
+	
+	div (مسافه):not(p)   كدا بقوله ادخل دور جوه الdiv وسلكت كله ماعدا p
+	
+	
+	
+		  
+ */ 
+ div{
+	 
+	  /* علشان ياخد الصفحه كلها*/
+	 top:0;left:0;
+	 position:absolute;
+	 background-color:black;
+	/* width:100%;
+	 height:100%;*/}
